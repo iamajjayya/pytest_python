@@ -20,7 +20,7 @@ def divide(a,b):
     return a / b
 
 def test_divide():
-    with pytest.raises(ZeroDivisionError) as exc_info:
+    with pytest.raises(ZeroDivisionError,match="Cannot divide by zero"):
         divide(10,0)
 
 def add_numbers(a,b):
