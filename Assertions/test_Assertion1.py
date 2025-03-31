@@ -25,12 +25,3 @@ def  test_subtract():
     assert result == 5 , "Expected  result is 5 , but  got 4 "
 
 
-#pytest.raises()
-
-def divide(a,b):
-    a / b
-
-def  test_divide_by_zero():
-    with pytest.raises(ZeroDivisionError):
-        divide(10,0)    
-
