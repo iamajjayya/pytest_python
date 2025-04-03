@@ -1,0 +1,7 @@
+Fixtures
+
+-> Fixtures in pytest are a powerfull features that allow you to setup and cleanup resources before and after test execution,
+They help manage test dependencies and ensure that tests run in an isolated and predictable manner 
+
+-> you can define fixture once and reuse it across multiple test cases 
+
